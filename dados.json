@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "titulo": "Dandara dos Palmares",
+        "descricao": "Esposa de Zumbi dos Palmares e uma das principais líderes do Quilombo dos Palmares. Dandara era símbolo de resistência e luta contra a escravidão, inspirando gerações.",
+        "link": "https://brasilescola.uol.com.br/historia/dandara-dos-palmares.htm",
+        "tags": [
+            "quilombo dos palmares",
+            "zumbi dos palmares",
+            "resistência negra",
+            "liderança feminina",
+            "escravidão"
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Luiz Gama",
+        "descricao": "Ativista abolicionista e poeta, Luiz Gama lutou incansavelmente pela libertação dos escravizados no Brasil. Seus escritos e ações foram fundamentais para a causa abolicionista.",
+        "link": "https://pt.wikipedia.org/wiki/Luiz_Gama",
+        "tags": [
+            "abolicionista",
+            "poeta",
+            "negro",
+            "escravidão"
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Maria Firmina dos Reis",
+        "descricao": "Primeira romancista negra do Brasil, Maria Firmina dos Reis abordou temas como racismo e desigualdade social em suas obras. Seus escritos são considerados pioneiros na literatura brasileira.",
+        "link": "https://pt.wikipedia.org/wiki/Maria_Firmina_dos_Reis",
+        "tags": [
+            "escritora, romancista, negra, literatura brasileira"
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Chico Mendes",
+        "descricao": "Liderança sindical e ambientalista, Chico Mendes dedicou sua vida à luta pela preservação da Amazônia e pelos direitos dos seringueiros. Seu assassinato em 1988 gerou comoção mundial.",
+        "link": "https://pt.wikipedia.org/wiki/Chico_Mendes",
+        "tags": [
+            "ambientalismo, amazônia, seringueiro, liderança"
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Lélia Gonzalez",
+        "descricao": "Antropóloga, filósofa e ativista negra, Lélia Gonzalez foi uma das principais pensadoras do movimento negro no Brasil. Seus estudos sobre a cultura negra e o feminismo negro são fundamentais para a compreensão da história do país.",
+        "link": "https://pt.wikipedia.org/wiki/Lélia_Gonzalez",
+        "tags": [
+            "antropologia, filosofia, feminismo negro, movimento negro"
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Djamila Ribeiro",
+        "descricao": "Filósofa e escritora, Djamila Ribeiro é uma das principais vozes do feminismo negro no Brasil. Seus livros abordam temas como racismo, machismo e interseccionalidade.",
+        "link": "https://pt.wikipedia.org/wiki/Djamila_Ribeiro",
+        "tags": [
+            "filosofia, feminismo negro, escritora, interseccionalidade"
+        ]
+    }
+]
