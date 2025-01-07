@@ -79,34 +79,51 @@ button:hover {
 
 /* Estiliza cada item de resultado */
 .itemResultado {
-  background: #ffffff; /* Cor de fundo dos itens */
-  border-radius: 0.6rem; /* Borda arredondada */
-  padding: 1rem; /* Espaçamento interno */
-  margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  width: 300px;
+  height: 325px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px auto;
+  text-align: center;
 }
 
-/* Estiliza os títulos dentro dos itens de resultado */
+.itemResultado:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
 .itemResultado h2 {
-  font-size: 1.5rem; /* Tamanho da fonte */
-  color: #222831; /* Cor do texto */
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
 }
 
-/* Estiliza os links dentro dos itens de resultado */
-.itemResultado a {
-  text-decoration: none; /* Remove o sublinhado padrão dos links */
-  color: #30475e; /* Cor do texto dos links */
+.itemResultado h2 a {
+  text-decoration: none;
+  color: #961868;
+  transition: color 0.3s ease;
 }
 
-/* Estiliza os links quando são passados o mouse sobre */
-.itemResultado a:hover {
-  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+.itemResultado h2 a:hover {
+  text-decoration: underline;
 }
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espaçamento entre os cards */
+  justify-content: center; /* Centraliza os cards horizontalmente */
+  margin: 20px; /* Espaçamento externo */
+}
+
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricaoMeta {
   color: #45474b; /* Cor do texto */
   margin: 0.5rem 0; /* Margem acima e abaixo */
+
 }
 
 /* Estiliza o rodapé da página */
