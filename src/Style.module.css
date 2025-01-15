@@ -8,7 +8,7 @@ body {
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column; /* Alinha os itens na vertical */
   align-items: center; /* Centraliza os itens horizontalmente */
-  justify-content: center; /* Centraliza os itens verticalmente */
+  justify-content: space-between; 
   height: 100vh; /* Preenche a altura total da viewport */
   margin: 0; /* Remove a margem padrão */
   padding: 0; /* Remove o padding padrão */
@@ -18,11 +18,16 @@ body {
 background-size: cover;
 
 
+background-size: cover; /* Ajusta a imagem para cobrir toda a área do fundo */
+background-position: center center; /* Garante que a imagem fique centralizada */
+background-attachment: fixed; /* Faz a imagem de fundo permanecer fixa quando rolar a página */
+
+
 }
 
 /* Estiliza os títulos h1 */
 .header {
-  font-size: 2.5rem; /* Tamanho da fonte */
+  font-size: 5.5rem; /* Tamanho da fonte */
   color: #eaedf1; /* Cor do texto */
   text-align: center; /* Alinha o texto ao centro */
   letter-spacing: 0.4rem; /* Espaçamento entre letras */
@@ -80,8 +85,8 @@ button:hover {
 /* Estiliza cada item de resultado */
 .itemResultado {
   width: 300px;
-  height: 325px;
-  padding: 20px;
+  height: 450px;
+  
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -137,54 +142,141 @@ footer {
   bottom: 0; /* Alinha ao fundo da página */
   font-size: 1rem; /* Tamanho da fonte */
 }
+/* card */
+.imagem{
+  width: 300px;
+  height: 450px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  
+  
+}
 
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem; /* Tamanho da fonte em telas menores */
-    letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+/* Responsividade */
+/* Para telas médias (máx. 1024px) */
+@media (max-width: 1024px) {
+  .header {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
   }
 
   input {
-    width: 25rem; /* Largura dos inputs em telas menores */
-    padding: 0.8rem; /* Espaçamento interno em telas menores */
+    width: 25rem; /* Ajusta a largura do input */
+    padding: 0.8rem; /* Menor espaçamento interno */
   }
 
   .resultadosPesquisa {
-    width: 40rem; /* Largura da caixa de resultados em telas menores */
-    height: 40vh; /* Altura da caixa de resultados em telas menores */
+    width: 50rem; /* Reduz a largura da caixa */
+    height: 40vh; /* Reduz a altura da caixa */
   }
 
-  .itemResultado h2 {
-    font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
+  .itemResultado {
+    width: 250px; /* Cards menores */
+    height: 400px;
   }
 }
 
-/* Responsividade para celulares */
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
-    letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+
+/* Para tablets e telas pequenas (máx. 768px) */
+@media (max-width: 768px) {
+  .header {
+    font-size: 1.8rem; /* Fonte menor */
+    margin-top: 150px; /* Ajusta o espaçamento superior */
   }
 
   input {
-    width: 17rem; /* Largura total dos inputs em telas pequenas */
+    width: 20rem; /* Ajusta a largura do input */
   }
 
   button {
-    padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
-    font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+    padding: 0.6rem 1rem; /* Ajusta o botão */
+    font-size: 0.9rem; /* Reduz o tamanho da fonte */
   }
 
   .resultadosPesquisa {
-    width: 90%; /* Largura da caixa de resultados em telas pequenas */
-    height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+    width: 90%; /* Largura relativa */
+    height: 35vh; /* Altura menor */
+  }
+  
+  .itemResultado {
+    width: 200px;
+    height: 250px; /* Cards menores */
+  }
+  .imagem{
+
+      width: 160px;
+      height: 250px;
+      
+      
+  }
+  
+}
+
+/* Para celulares (máx. 480px) */
+@media (max-width: 480px) {
+  .header {
+    font-size: 1.5rem; /* Fonte ainda menor */
+    margin-top: 100px;
   }
 
-  .itemResultado h2 {
-    font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+  input {
+    width: 90%; /* Largura relativa para se ajustar à tela */
+    font-size: 0.9rem; /* Texto menor */
+  }
+
+  button {
+    padding: 0.5rem 0.8rem; /* Ajusta tamanho do botão */
+    font-size: 0.8rem;
+  }
+
+  .resultadosPesquisa {
+    width: 100%; /* Ocupa a largura total */
+    height: 30vh; /* Altura menor */
+    padding: 0.8rem; /* Ajusta o padding interno */
+  }
+
+  .itemResultado {
+    width: 50%; /* Ocupa quase toda a largura */
+    height: auto; /* Ajusta a altura automaticamente */
+  }
+  .imagem{
+    width: 100%;
   }
 
   footer {
-    font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+    font-size: 0.8rem; /* Texto menor no rodapé */
+    padding: 0.5rem; /* Menor espaçamento */
+  }
+
+}
+
+/* Para dispositivos ultra pequenos (máx. 360px) */
+@media (max-width: 360px) {
+  .header {
+    font-size: 1.2rem; /* Fonte compacta */
+    margin-top: 80px;
+  }
+
+  input {
+    width: 95%; /* Mais compacto ainda */
+  }
+
+  button {
+    font-size: 0.7rem; /* Texto menor */
+    padding: 0.4rem 0.6rem; /* Botão menor */
+  }
+
+  .resultadosPesquisa {
+    padding: 0.5rem; /* Reduz o padding interno */
+    height: 25vh; /* Altura bem menor */
+  }
+
+  .itemResultado {
+    width: 45%; /* Cards ocupam largura total */
+   height: auto;
+  }
+  .imagem{
+    width: 100%; /* Cards ocupam largura total */
+   height: auto;
   }
 }

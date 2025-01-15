@@ -46,6 +46,7 @@ function Pesquisa() {
               titulo={item.titulo}
               descricao={item.descricao}
               link={item.link}
+              imagem={item.imagem}
             />
           ))
         ) : (pesquisa === "" && (
