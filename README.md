@@ -5,7 +5,6 @@ Desenvolvido com foco na **educação e cultura afro-brasil**, busca suprir a au
  O objetivo é ampliar o acesso a esse conhecimento, promovendo reconhecimento e valorização da cultura afro-brasileira.
 
 ### Link do projeto: https://afro-brasil.vercel.app/
-
  
 
 📌 Funcionalidades
