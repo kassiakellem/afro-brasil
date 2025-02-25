@@ -127,7 +127,8 @@ button:hover {
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricaoMeta {
   color: #45474b; /* Cor do texto */
-  margin: 0.5rem 0; /* Margem acima e abaixo */
+  margin: 0.6rem 15px; /* Margem acima e abaixo */
+  gap: 15px;
 
 }
 

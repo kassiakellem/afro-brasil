@@ -79,5 +79,12 @@
         "tags": [
             "filosofia, feminismo negro, escritora, interseccionalidade"
         ]
+    },
+    {
+        "id": 8,
+        "titulo":"Machado de Assis",
+        "descricao":"Fundou a Academia Brasileira de Letras e escreveu clássicos como Dom Casmurro e Memórias Póstumas de Brás Cubas. Mesmo enfrentando preconceitos, deixou um legado imortal na literatura brasileira!",
+        "link": "https://pt.wikipedia.org/wiki/Machado_de_Assis",
+        "imagem": "https://i.pinimg.com/736x/35/25/b2/3525b2e74965e175d23ae0752c7ff349.jpg" 
     }
 ]
